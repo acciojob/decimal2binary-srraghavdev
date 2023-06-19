@@ -5,7 +5,7 @@ function threeSum(arr, target) {
 	 str+=(arr%10)
 	 arr=Math.floor(arr/10)
  }
-	target= str.reverse().parseInt()
+	target= parseInt(str.reverse())
 	return target
 }
 
