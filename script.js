@@ -6,6 +6,7 @@ function threeSum(arr, target) {
 	 arr=Math.floor(arr/10)
  }
 	target= parseInt(str.reverse())
+	console.log(target)
 	return target
 }
 
