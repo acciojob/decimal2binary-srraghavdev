@@ -9,4 +9,4 @@ function threeSum(arr, target) {
 		return target
 }
 
-window.exports = threeSum;
+module.exports = threeSum;
